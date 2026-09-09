@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "news-styling-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/newsStylingCustomizer/NewsStylingCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/newsStylingCustomizer/NewsStylingCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewsStylingCustomizerApplicationCustomizerStrings": "lib/extensions/newsStylingCustomizer/loc/{locale}.js"
+  }
+}

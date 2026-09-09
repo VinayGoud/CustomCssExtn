@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://sonatacms.sharepoint.com/sites/SmartHomeMonitoring/SitePages/Global-News.aspx",
+      "customActions": {
+        "280120a6-e388-4f68-ae52-0c5b82132890": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "newsStylingCustomizer": {
+      "pageUrl": "https://sonatacms.sharepoint.com/sites/SmartHomeMonitoring/SitePages/Global-News.aspx",
+      "customActions": {
+        "280120a6-e388-4f68-ae52-0c5b82132890": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

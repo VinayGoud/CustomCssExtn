@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "news-styling-customizer",
+    "libraryId": "e450c93d-a076-4bd1-947d-817de1232f65",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "news-styling-customizer",
+    "solutionShortDescription": "news-styling-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
